@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Global Attributes Udemy Course with Robert HTML</title>
+    </head>
+
+    <body>
+        <p class="className">Example text</p>
+        <p dir="rtl">Example text rtl</p>
+        <p dir="ltr">Example text ltr</p>
+        <p lang="en" id="idNameEN" style="color: blue">Example text</p>
+        <p lang="it" id="idNameIT" style="color: green">Testo di esempio</p>
+        <p lang="de" id="idNameDE" style="color: yellow; background-color: black;">Texten zum Beispeil</p>
+        <p lang="es" id="idNameES" style="color: red">Texto de ejemplo</p>
+
+        <!-- you can select with pressing tab!!! as many times as you click ... (see num bellow after tabindex)-->
+        <p tabindex="3">Example text tabindex</p>
+        <p tabindex="2">Example text tabindex</p>
+        <p tabindex="1">Example text tabindex</p>
+
+        <p title="This is the example text">Example text with title!</p>
+
+        <p contenteditable="true">Text is editable</p>
+
+        <p contextmenu="menu">
+            Example menu
+            <!--menu does not work in google chrome to check use firefox! -->
+            <Menu type="context" id="menu">
+                <!--<menu-item type="checkbox" checked>Checkbox</menu-item>-->
+                <!--right click and you will see option1 and option2-->
+                <menuitem label="Option1"></menuitem>
+                <menuitem label="Option1"></menuitem>
+            </Menu>
+        </p>
+
+        <div style = "border:1px solid #000; padding:20px;" contextmenu = "clickmenu">
+            <p>Right click inside  here....</p>
+   
+            <menu type = "context" id = "clickmenu">
+               <menuitem label = "Tutorialspoint" onclick = ""></menuitem>
+            </menu>
+         </div>
+
+         <p data-fruit-type="apple">Example text 1</p>
+         <p data-programming-laguage="java">Example text 2</p>
+
+         <p draggable="true">Text example draggable</p>
+         <p draggable="false">Text not draggable</p>
+         <p hidden>Hidden example</p>
+         <p contenteditable="true" spellcheck="true">Exampleee text</p>
+         <p translate="yes">Text can be translated</p>
+
+    </body>
+</html>
